@@ -33,7 +33,7 @@ export default class EnterDetails extends React.Component {
 
         //display an alert using ToastAndroid
 
-        ToastAndroid.Alert('Your profile has been submitted', ToastAndroid.SHORT)
+        ToastAndroid.show('Your profile has been submitted', ToastAndroid.SHORT)
     }
 
     render(){
